@@ -26,6 +26,6 @@ class MathUtilsTest {
 	@DisplayName("Substraction")
 	void testSubstrat()
 	{
-		assertEquals(2,mathUtils.substract(4, 2),() -> "Should return correct result");
+		assertEquals(2,mathUtils.substract(4, 2),() -> "Should return correct substraction result!");
 	}
 }
