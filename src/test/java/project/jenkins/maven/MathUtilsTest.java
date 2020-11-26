@@ -19,7 +19,7 @@ class MathUtilsTest {
 	@Test
 	@DisplayName("Addition")
 	void testAdd() {
-		assertEquals(2,mathUtils.add(1, 1),()-> "Should return correct sum");
+		assertEquals(2,mathUtils.add(1, 1),()-> "Should return correct sum of numbers");
 	}
 	
 	@Test
