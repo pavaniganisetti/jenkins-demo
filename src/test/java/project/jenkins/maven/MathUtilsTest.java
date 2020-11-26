@@ -21,5 +21,11 @@ class MathUtilsTest {
 	void testAdd() {
 		assertEquals(2,mathUtils.add(1, 1),()-> "Should return correct sum");
 	}
-
+	
+	@Test
+	@DisplayName("Substraction")
+	void testSubstrat()
+	{
+		assertEquals(2,mathUtils.substract(4, 2),() -> "Should return correct result");
+	}
 }
