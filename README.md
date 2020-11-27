@@ -1,2 +1,2 @@
 # jenkins-demo 
-This is sample repo for jenkins.
+This is sample repository for jenkins.
